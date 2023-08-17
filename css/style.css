@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(15, 16, 16),rgb(25, 84, 83),rgb(3, 56, 60));
+}
+.datetime
+{
+    color: #fff;
+    background-color: #0e0e0e;
+    font-family: "Segoe UI", sans-serif;
+    margin-bottom: 150px;
+    width: 340px;
+    padding: 15px 10px;
+    border: 3px solid #037b77;
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,rgba(255,255,255,0.1));
+    transition: 0.5s;
+    transition-property: background, box-shadow;
+
+}
+.datetime:hover{
+    background:#037b77; 
+    box-shadow: 0 0 30px #1a6776;
+}
+.date
+{
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+letter-spacing: 3px;
+    
+}
+.time
+{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.time span:not(:last-child)
+{
+    position: relative;
+    margin: 0 6px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time span:last-child
+{
+    background: #037b77;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+.btn
+{
+    position: absolute;
+    font-size: 30px;
+    background: #037b77;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    margin-top:400px ;
+    text-decoration: none;
+    border: 3px solid #2E94E3;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.btn:hover
+{
+    background:#037b77; 
+    box-shadow: 0 0 30px #1a6776;
+}
